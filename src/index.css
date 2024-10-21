@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Outfit", sans-serif;
+}
+input::placeholder {
+  color: #565353;
+  font-size: 13px;
+}
+.Toastify__toast {
+  font-family: "Outfit", sans-serif;
+  font-size: 14px;
+  padding: 18px;
+  min-width: 250px;
+  min-height: 20px;
+}
+textarea::placeholder {
+  color: #565353;
+  font-size: 13px;
+}
